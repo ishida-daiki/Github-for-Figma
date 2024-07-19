@@ -46,17 +46,6 @@ function Plugin() {
   return (
     <Container space="medium">
       <VerticalSpace space="small" />
-      <div class={styles.container} ref={containerElementRef}>
-        <Editor
-          highlight={function (code: string) {
-            return highlight(code, languages.js, 'js')
-          }}
-          onValueChange={setCode}
-          preClassName={styles.editor}
-          textareaClassName={styles.editor}
-          value={code}
-        />
-      </div>
       <VerticalSpace space="large" />
       <Button fullWidth onClick={handleInsertCodeButtonClick}>
         Insert Code
