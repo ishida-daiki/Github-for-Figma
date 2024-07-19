@@ -1,10 +1,4 @@
-.container {
-  overflow: auto;
-  height: 164px;
-}
-
-.editor {
-  min-height: 100%;
-  font-family: var(--font-family-code);
-  font-size: var(--font-size-12);
+.IconButton {
+  padding: var(--control-xsmall-paddingInline-condensed);
+  width: 24px;
 }
